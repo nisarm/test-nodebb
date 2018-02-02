@@ -5,7 +5,7 @@ RUN npm install -g pm2
 
 ENV NODEBB_VERSION=v1.7.x \
     NODEBB_UPLOADS_CONTENT=/var/lib/nodebb/public/uploads \
-    NODEBB_CONFIG=/var/lib/nodebb/config.json \
+    # NODEBB_CONFIG=/var/lib/nodebb/config.json \
     daemon=false \
     silent=false
 
@@ -15,7 +15,7 @@ WORKDIR /var/lib/nodebb
 
 VOLUME $NODEBB_UPLOADS_CONTENT
 
-VOLUME $NODEBB_CONFIG
+# VOLUME $NODEBB_CONFIG
 
 COPY config.json /var/lib/nodebb
 
