@@ -6,7 +6,7 @@
   "upload_path": "/var/lib/nodebb/public/uploads",
   "redis": {
       "host": "192.168.0.152",
-      "port": "6380",
+      "port": "6379",
       "password": "",
       "database": "0"
   }
