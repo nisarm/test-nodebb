@@ -1,1 +1,13 @@
 
+{
+  "url": "http://ip172-18-0-49-b9pvgvir91k000b18glg-4567.direct.labs.play-with-docker.com",
+  "secret": "bbbbb-cccc-dddd-eeee-fffffff",
+  "database": "redis",
+  "upload_path": "/var/lib/nodebb/public/uploads",
+  "redis": {
+      "host": "192.168.0.152",
+      "port": "6380",
+      "password": "",
+      "database": "0"
+  }
+}
