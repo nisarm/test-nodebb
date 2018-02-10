@@ -1,7 +1,7 @@
 
 {
   "url": "http://ip172-18-0-7-b9v794np7tr000904pm0-4567.direct.labs.play-with-docker.com",
-  "secret": "ac0770d1-6c76-4eaf-9070-6ecb2c5f29ac",
+  "secret": "265df703-6ad7-4fcd-8435-fb3e98d3f719",
 	"database": "mongo",
 	"upload_path": "/var/lib/nodebb/public/uploads",
 	"mongo": {
@@ -9,6 +9,8 @@
 		"port": "27017",
 		"username": "nodebb",
 		"password": "nodebb",
-		"database": "nodebb"
-  }
+		"database": "nodebb",
+		"uri": ""
+  	},
+	"type": "literal"
 }
