@@ -1,13 +1,14 @@
 
 {
-  "url": "http://ip172-18-0-49-b9pvgvir91k000b18glg-4567.direct.labs.play-with-docker.com",
-  "secret": "bbbbb-cccc-dddd-eeee-fffffff",
-  "database": "redis",
-  "upload_path": "/var/lib/nodebb/public/uploads",
-  "redis": {
-      "host": "192.168.0.152",
-      "port": "6379",
-      "password": "",
-      "database": "0"
+  "url": "http://ip172-18-0-13-b9v794np7tr000904pm0-4567.direct.labs.play-with-docker.com",
+  "secret": "ac0770d1-6c76-4eaf-9070-6ecb2c5f29ac",
+	"database": "mongo",
+	"upload_path": "/var/lib/nodebb/public/uploads",
+	"mongo": {
+		"host": "192.168.0.153",
+		"port": "27017",
+		"username": "nodebb",
+		"password": "!@#$%^&*nodebb!@#$%^&*99!@#$%^&*",
+		"database": "nodebb"
   }
 }
